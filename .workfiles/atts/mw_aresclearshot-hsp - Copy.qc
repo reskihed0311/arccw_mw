@@ -1,0 +1,35 @@
+
+
+$modelname "att_opt_aresclearshot_hsp_holo.mdl"
+
+
+$bodygroup "holo_hsp"
+{
+	studio "clearshot_holo_hsp2.dmx"
+}
+
+      $definebone "root" "" 0.000000 0.000000 0.000000 0.000003 0.000008 90.000008 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+      $definebone "holosight" "root" -1.123000 2.511500 -1.224414 -0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+
+$SurfaceProp "weapon"
+
+$Contents "solid"
+
+$IllumPosition 0 0 0
+
+$CBox 0 0 0 0 0 0
+
+$BBox -1.501 -0.874 -0.421 2.028 0.904 1.859
+
+$cdmaterials "models\mwrshared\atts"
+$cdmaterials ""
+
+$attachment "holosight" "holosight" 0 0 0 rotate 0 0 0
+
+
+
+$sequence "idle" {
+	"anims\ref_aresclearshot.dmx"
+    snap
+	fps 30
+}
