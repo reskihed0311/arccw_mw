@@ -17,7 +17,7 @@ SWEP.Trivia_Calibre = "12 Gauge" -- "9x21mm Jager"
 SWEP.Trivia_Mechanism = nil -- "Roller-Delayed Blowback"
 SWEP.Trivia_Country = "U.S.A" -- "Austria"
 SWEP.Trivia_Year = nil -- 1968
-SWEP.CanFireUnderwater = true
+SWEP.CanFireUnderwater = false
 
 
 SWEP.Slot = 3
@@ -121,9 +121,9 @@ SWEP.ProceduralViewBobAttachment = nil -- attachment on which coolview is affect
 SWEP.CamAttachment = nil -- if set, this attachment will control camera movement
 SWEP.MuzzleFlashColor = Color(244, 209, 66)
 
-SWEP.SpeedMult = 1
-SWEP.SightedSpeedMult = 0.9
-SWEP.ShootSpeedMult = 0.85
+SWEP.SpeedMult = 0.85
+SWEP.SightedSpeedMult = 0.80
+SWEP.ShootSpeedMult = 0.75
 
 
 SWEP.IronSightStruct = {
@@ -132,7 +132,7 @@ SWEP.IronSightStruct = {
 }
 
 
-SWEP.SightTime = 0.2
+SWEP.SightTime = 0.45
 
 
 SWEP.ActivePos = Vector(0, -2, 0)
@@ -290,11 +290,17 @@ SWEP.Attachments = {
     {
         PrintName = "Muzzle Device", -- print name
         DefaultAttName = "Default Flashider",
-        Slot = {"muzzle_shotgun"}, -- what kind of attachments can fit here, can be string or table
+        Slot = {"muzzle_sg"}, -- what kind of attachments can fit here, can be string or table
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
-            vpos = Vector(0, -2.9, 25), -- offset that the attachment will be relative to the bone
-            vang = Angle(-90, 0 ,0),
+            vpos = Vector(0, -2.3, 19.5), -- offset that the attachment will be relative to the bone
+            vang = Angle(-90, 0 ,-90),
         },
+    },
+   {
+        PrintName = "Ammo Types", -- print name
+        DefaultAttName = "Buckshot",
+        Slot = {"sg_ammo"}, -- what kind of attachments can fit here, can be string or table
+        Bone = "weapon", -- relevant bone any attachments will be mostly referring to
     },
 }
