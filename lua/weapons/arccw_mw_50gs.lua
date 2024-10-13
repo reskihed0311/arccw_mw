@@ -185,8 +185,8 @@ SWEP.Animations = {
     ["reload_empty"] = {
            Source = "reload_empty",
            TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2, -- third person animation to play when this animation is played
-           LHIKIn = 0.8, -- In/Out controls how long it takes to switch to regular animation.
-           LHIKOut = 0.75, -- (not actually inverse kinematics)
+           LHIKIn = 0.25, -- In/Out controls how long it takes to switch to regular animation.
+           LHIKOut = 0.25, -- (not actually inverse kinematics)
            LHIKEaseOut = 0.1, -- how long LHIK eases in.
            LHIKEaseIn = 0.1, -- how long LHIK eases in.
            LHIK = true, -- basically disable foregrips on this anim
@@ -202,7 +202,7 @@ SWEP.Animations = {
        Source = "reload",
        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2, -- third person animation to play when this animation is played
        LHIK = true, -- basically disable foregrips on this anim
-       LHIKIn = 0.8, -- In/Out controls how long it takes to switch to regular animation.
+       LHIKIn = 0.25, -- In/Out controls how long it takes to switch to regular animation.
        LHIKOut = 0.25, -- (not actually inverse kinematics)
        LHIKEaseOut = 0.1, -- how long LHIK eases in.
        LHIKEaseIn = 0.1, -- how long LHIK eases in.
@@ -224,7 +224,7 @@ SWEP.AttachmentElements = {
     },
     ["50gs_tyrantfifty"] = {
         AttPosMods = {
-            [3] = {
+            [4] = {
                 vpos = Vector(0, -2.5,9.3), -- offset that the attachment will be relative to the bone
                 vang = Angle(-90, 0, -90),
             }
@@ -252,6 +252,16 @@ SWEP.Attachments = {
         InstalledEles = {"bar_custom"},
         Offset = {
             vpos = Vector(3.13, -3.8, -15.2), -- offset that the attachment will be relative to the bone
+            vang = Angle(90, 0, -90),
+        },
+    },
+    {
+        PrintName = "Foregrip Slot", -- print name
+        DefaultAttName = "Your hand",
+        Slot = {"grip_mw"}, -- what kind of attachments can fit here, can be string or table
+        Bone = "weapon", -- relevant bone any attachments will be mostly referring to
+        Offset = {
+            vpos = Vector(-1.85, -4.2, -14), -- offset that the attachment will be relative to the bone
             vang = Angle(90, 0, -90),
         },
     },
