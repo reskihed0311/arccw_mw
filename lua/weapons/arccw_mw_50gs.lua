@@ -219,6 +219,18 @@ SWEP.Animations = {
 SWEP.DefaultBodygroups = "00000000000000000000000"
 
 SWEP.AttachmentElements = {
+    ["bar_custom"] = {
+        VMBodygroups = {{ind = 3 , bg = 1}}
+    },
+    ["50gs_tyrantfifty"] = {
+        AttPosMods = {
+            [3] = {
+                vpos = Vector(0, -2.5,9.3), -- offset that the attachment will be relative to the bone
+                vang = Angle(-90, 0, -90),
+            }
+        }
+    }
+
 }
 
 SWEP.Attachments = {
@@ -233,11 +245,21 @@ SWEP.Attachments = {
         },
     },
     {
-        PrintName = "Muzzle Device (TEMP)", -- print name
-        DefaultAttName = "Threaded Barrel",
-        Slot = {"muzzle_pistol"}, -- what kind of attachments can fit here, can be string or table
+        PrintName = "Barrel", -- print name
+        DefaultAttName = "SA Factory 50",
+        Slot = {"bar_50gs"}, -- what kind of attachments can fit here, can be string or table
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
-        VMScale = Vector(1.2, 1.2, 1.2),
+        InstalledEles = {"bar_custom"},
+        Offset = {
+            vpos = Vector(3.13, -3.8, -15.2), -- offset that the attachment will be relative to the bone
+            vang = Angle(90, 0, -90),
+        },
+    },
+    {
+        PrintName = "Muzzle Device", -- print name
+        DefaultAttName = "Threaded Barrel",
+        Slot = {"muzzle_50ae"}, -- what kind of attachments can fit here, can be string or table
+        Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
             vpos = Vector(0, -2.5,6.4), -- offset that the attachment will be relative to the bone
             vang = Angle(-90, 0, -90),
