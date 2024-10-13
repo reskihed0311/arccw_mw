@@ -17,5 +17,6 @@ att.LaserBone = "laser"
 att.ColorOptionsTable = {Color(255, 50, 50)}
 
 att.Mult_SightTime = 1.15
+att.Mult_Sway = 0.5
 
 att.Mult_HipDispersion = 0.4

@@ -11,7 +11,7 @@ att.LHIK = true
 att.ModelOffset = Vector(0, 0, 0)
 att.Model = "models/atts/ub/att_grip_bruentilt.mdl"
 
-att.Mult_Recoil = 0.85
+att.Mult_Recoil = 0.90
 att.Mult_SightTime = 1.05
 att.Mult_DrawTime = 1.05
 att.Mult_HolsterTime = 1.05
