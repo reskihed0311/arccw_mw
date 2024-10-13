@@ -40,7 +40,7 @@ SWEP.WorldModelOffset =
 }
 
 
-SWEP.Damage = 17
+SWEP.Damage = 18
 SWEP.DamageMin = 2 -- damage done at maximum range
 
 SWEP.Range = 50 -- in METRES
@@ -124,7 +124,7 @@ SWEP.MuzzleFlashColor = Color(244, 209, 66)
 
 SWEP.SpeedMult = 0.85
 SWEP.SightedSpeedMult = 0.80
-SWEP.ShootSpeedMult = 0.75
+SWEP.ShootSpeedMult = 0.80
 
 
 SWEP.IronSightStruct = {
