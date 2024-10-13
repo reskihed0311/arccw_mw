@@ -28,12 +28,12 @@ SWEP.ViewModel = "models/weapons/arccw_mwr_cronensquall.mdl" -- I mean, you prob
 SWEP.WorldModel = "models/weapons/w_rif_m4a1.mdl"
 
 SWEP.MirrorVMWM = true -- Copy the viewmodel, along with all its attachments, to the worldmodel. Super convenient!
-SWEP.MirrorWorldModel = "models/weapons/arccw_mwr_basb_wm.mdl" -- Use this to set the mirrored viewmodel to a different model, without any floating speedloaders or cartridges you may have. Needs MirrorVMWM
+SWEP.MirrorWorldModel = "models/weapons/arccw_mwr_cronensquall_wm.mdl" -- Use this to set the mirrored viewmodel to a different model, without any floating speedloaders or cartridges you may have. Needs MirrorVMWM
 
 
 SWEP.WorldModelOffset =
 {
-    pos = Vector(-8.2, 4, -6.5),
+    pos = Vector(-12, 4, -6),
     ang = Angle(175, 180, 0),
     scale = 0.95,
 }
