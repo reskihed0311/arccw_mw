@@ -219,6 +219,9 @@ SWEP.DefaultBodygroups = "00000000000000000000000"
 
 
 SWEP.AttachmentElements = {
+    ["taq_stockcustom"] = {
+        VMBodygroups = {{ind = 5, bg = 1}},
+    },
     ["taq_barlong"] = {
         VMBodygroups = {{ind = 4, bg = 2}},
         AttPosMods = {
@@ -316,7 +319,18 @@ end
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
             vpos = Vector(0, -2.05, 16.5), -- offset that the attachment will be relative to the bone
-            vang = Angle(-90, 0 ,0),
+            vang = Angle(-90, 0 ,-90),
+        },
+    },
+    {
+        PrintName = "Stock", -- print name
+        DefaultAttName = "Tactique Verte Factory",
+        Slot = {"taq56_stock"}, -- what kind of attachments can fit here, can be string or table
+        Bone = "weapon", -- relevant bone any attachments will be mostly referring to
+        InstalledEles = {"taq_stockcustom"},
+        Offset = {
+            vpos = Vector(3.4, -5.5, -13.4), -- offset that the attachment will be relative to the bone
+            vang = Angle(90, 0 ,-90),
         },
     },
 }
