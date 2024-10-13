@@ -9,6 +9,7 @@ att.Desc_Pros = {
     "autostat.thermal"
 }
 att.Desc_Cons = {
+    "24 Frames per Second."
 }
 att.AutoStats = true
 att.Slot = "optic"
