@@ -241,7 +241,7 @@ SWEP.AttachmentElements = {
             },
             [5] = {
                 vpos = Vector(0, -1.7, 20),
-                vang = Angle (-90, 0, 0),
+                vang = Angle (-90, 0, -90),
             },
             [4] = {
                 vpos = Vector(0, -2.9, 17), -- offset that the attachment will be relative to the bone
@@ -257,7 +257,7 @@ SWEP.AttachmentElements = {
             },
             [5] = {
                 vpos = Vector(0, -1.7,14.5),
-                vang = Angle (-90, 0, 0),
+                vang = Angle (-90, 0, -90),
             },
             [4] = {
                 vpos = Vector(0, -2.9, 11.5), -- offset that the attachment will be relative to the bone
@@ -273,7 +273,7 @@ SWEP.AttachmentElements = {
             },
             [5] = {
                 vpos = Vector(0, -1.7,12),
-                vang = Angle (-90, 0, 0),
+                vang = Angle (-90, 0, -90),
             },
             [4] = {
                 vpos = Vector(0, -2.9, 8.5), -- offset that the attachment will be relative to the bone
@@ -365,7 +365,7 @@ end
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
             vpos = Vector(0, -1.7, 16.5), -- offset that the attachment will be relative to the bone
-            vang = Angle(-90, 0 ,0),
+            vang = Angle(-90, 0 ,-90),
         },
     },
     {

@@ -325,7 +325,7 @@ end
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
             vpos = Vector(0, -2.95, 17), -- offset that the attachment will be relative to the bone
-            vang = Angle(-90, 0 ,0),
+            vang = Angle(-90, 0 ,-90),
         },
     },
 }
