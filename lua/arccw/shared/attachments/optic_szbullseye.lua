@@ -1,4 +1,4 @@
-att.PrintName = "SZ Bullseye"
+att.PrintName = "SZ Bullseye (MAGNIFIED)"
 att.Description = "Cool Optic!"
 
 att.SortOrder = 3

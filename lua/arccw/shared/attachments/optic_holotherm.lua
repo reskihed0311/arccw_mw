@@ -1,4 +1,4 @@
-att.PrintName = "FSS SPECTRE MICROTHERM"
+att.PrintName = "FSS SPECTRE (THERMAL)"
 att.Description = "A micro thermal optic."
 
 att.SortOrder = 50

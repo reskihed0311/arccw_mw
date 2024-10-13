@@ -1,4 +1,4 @@
-att.PrintName = "DXS Coriolis"
+att.PrintName = "DXS Coriolis (SNIPER)"
 att.Description = "Cool Optic!"
 
 att.SortOrder = 6

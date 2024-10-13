@@ -1,4 +1,4 @@
-att.PrintName = "MONOCLE CT90"
+att.PrintName = "MONOCLE CT90 (RED DOT)"
 att.Description = "A minimal reflex sight of Russian origin."
 
 att.SortOrder = 0.5
