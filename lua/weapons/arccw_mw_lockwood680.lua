@@ -133,7 +133,7 @@ SWEP.IronSightStruct = {
 }
 
 
-SWEP.SightTime = 0.45
+SWEP.SightTime = 0.22
 
 
 SWEP.ActivePos = Vector(0, -2, 0)
@@ -229,6 +229,25 @@ SWEP.Animations = {
 
 SWEP.DefaultBodygroups = "00000000000000000000000"
 
+
+SWEP.AttachmentElements = {
+    ["bar_custom"] = {
+        VMBodygroups = {{ind = 2 , bg = 1}},
+        AttPosMods = {
+            [3] = {
+              vpos = Vector(0, -0.2, 19.5),
+                vang = Angle (90, 0, 90),
+            },
+            [5] = {
+                vpos = Vector(0, -2.3, 23.2), -- offset that the attachment will be relative to the bone
+            vang = Angle(-90, 0 ,-90),
+              }
+        },
+        
+        
+    }
+}
+
 SWEP.Hook_ModifyBodygroups = function(wep, data)
     local vm = data.vm
     local atts = wep.Attachments
@@ -265,6 +284,17 @@ SWEP.Attachments = {
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
             vpos = Vector(0, -3.2, 3.7), -- offset that the attachment will be relative to the bone
+            vang = Angle(90, 0, -90),
+        },
+    },
+    {
+        PrintName = "Barrel", -- print name
+        DefaultAttName = "LOCKWOOD Factory",
+        Slot = {"bar_680"}, -- what kind of attachments can fit here, can be string or table
+        Bone = "weapon", -- relevant bone any attachments will be mostly referring to
+        InstalledEles = {"bar_custom"},
+        Offset = {
+            vpos = Vector(3.55, -5.05, -13), -- offset that the attachment will be relative to the bone
             vang = Angle(90, 0, -90),
         },
     },

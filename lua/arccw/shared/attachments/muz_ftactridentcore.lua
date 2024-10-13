@@ -23,5 +23,5 @@ att.Mult_Recoil = 0.75
 att.Mult_Damage = 0.85
 att.Mult_DamageMin = 0.85
 
-att.Mult_SightTime = 1.35
+att.Mult_SightTime = 1.15
 att.Mult_HipDispersion = 0.90

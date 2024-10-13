@@ -217,8 +217,6 @@ SWEP.Animations = {
 SWEP.DefaultBodygroups = "00000000000000000000000"
 
 
-SWEP.AttachmentElements = {
-}
 
 --code by chatgpt
 
