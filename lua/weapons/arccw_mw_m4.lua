@@ -217,7 +217,10 @@ SWEP.DefaultBodygroups = "00000000000000000000000"
 
 
 SWEP.AttachmentElements = {
-
+    
+    ["nors"] = {
+        VMBodygroups = {{ind = 1 , bg = 1}}
+    },
     ["hg_custom"] = {
         VMBodygroups = {{ind = 6 , bg = 1}}
     },
@@ -339,7 +342,7 @@ end
     {
         PrintName = "Optic", -- print name
         DefaultAttName = "Iron Sights",
-        Slot = {"optic"}, -- what kind of attachments can fit here, can be string or table
+        Slot = {"optic" , "carryhandle"}, -- what kind of attachments can fit here, can be string or table
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
             vpos = Vector(0, -2.9, 2.5), -- offset that the attachment will be relative to the bone

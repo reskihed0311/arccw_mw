@@ -12,6 +12,7 @@ att.Slot = "ar_hg"
 att.AutoStats = true
 
 att.SortOrder = 0.5 
+att.ModelOffset = Vector(0, 0, 0)
 
 att.Mult_SightTime = 1.15
 att.Mult_DamageMin = 0.75
