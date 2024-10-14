@@ -233,6 +233,9 @@ SWEP.AttachmentElements = {
     ["fs_smid"] = {
         VMBodygroups = {{ind = 2, bg = 4}},
     },
+    ["fs_classic"] = {
+        VMBodygroups = {{ind = 2, bg = 5}},
+    },
     ["tempus_trenchpro"] = {
         AttPosMods = {
             [3] = {
@@ -253,6 +256,22 @@ SWEP.AttachmentElements = {
         AttPosMods = {
             [3] = {
                 vpos = Vector(-1.85, -3.8, -8),
+                vang = Angle (90, 0, -90),
+            },
+            [5] = {
+                vpos = Vector(0, -1.7,14.5),
+                vang = Angle (-90, 0, -90),
+            },
+            [4] = {
+                vpos = Vector(0, -2.9, 11.5), -- offset that the attachment will be relative to the bone
+            vang = Angle(90, 0, -90),
+            },
+        },
+    },
+    ["classic"] = {
+        AttPosMods = {
+            [3] = {
+                vpos = Vector(-1.85, -3.2, -9.5),
                 vang = Angle (90, 0, -90),
             },
             [5] = {
@@ -353,6 +372,7 @@ end
         DefaultAttName = "None",
         Slot = {"tac"}, -- what kind of attachments can fit here, can be string or table
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
+        ExcludeFlags = {"notac"},
         Offset = {
             vpos = Vector(0, -2.9, 13.5), -- offset that the attachment will be relative to the bone
             vang = Angle(90, 0, -90),
