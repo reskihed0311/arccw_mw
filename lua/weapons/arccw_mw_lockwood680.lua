@@ -95,7 +95,7 @@ SWEP.JumpDispersion = 300 -- dispersion penalty when in the air
 
 
 SWEP.Primary.Ammo = "buckshot" -- what ammo type the gun uses
-SWEP.Num = 6 -- number of shots per trigger pull.
+SWEP.Num = 7 -- number of shots per trigger pull.
 
 
 SWEP.ShootVol = 125 -- volume of shoot sound
