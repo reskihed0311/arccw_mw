@@ -39,11 +39,10 @@ SWEP.WorldModelOffset =
 }
 
 
-SWEP.Damage = 120
-SWEP.DamageMin = 95 -- damage done at maximum range
-
-SWEP.Range = 1000 -- in METRES
-SWEP.Penetration = 5
+SWEP.Damage = 135
+SWEP.DamageMin = 100 -- damage done at maximum range
+SWEP.Range = 1200 -- in METRES
+SWEP.Penetration = 30
 SWEP.DamageType = DMG_BULLET
 
 SWEP.TracerNum = 1 -- tracer every X
