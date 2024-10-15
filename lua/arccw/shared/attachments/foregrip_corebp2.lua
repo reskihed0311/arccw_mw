@@ -24,4 +24,4 @@ att.Mult_BipodDispersion = 0.25
 att.Mult_SightTime = 1.15
 att.Mult_HipDispersion = 1.1
 att.Mult_SpeedMult = 0.95
-att.Mult_Recoil = 0.90
+att.Mult_Recoil = 0.80

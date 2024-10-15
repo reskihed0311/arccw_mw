@@ -220,6 +220,14 @@ SWEP.AttachmentElements = {
     ["hg_custom"] = {
         VMBodygroups = {{ind = 4, bg = 1}},
     },
+    ["hr68"] = {
+        AttPosMods = {
+            [5] = {
+                vpos = Vector(0, -2.63, 20), -- offset that the attachment will be relative to the bone
+                vang = Angle(-90, 0 ,-90),
+            },
+        }
+    }
 }
 
 

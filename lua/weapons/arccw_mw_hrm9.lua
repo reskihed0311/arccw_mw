@@ -86,7 +86,7 @@ SWEP.Firemodes = {
 
 }
 
-SWEP.AccuracyMOA = 5 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 10 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 450 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 150 -- inaccuracy added by moving. Applies in sights as well! Walking speed is considered as "maximum".
 SWEP.SightsDispersion = 0 -- dispersion that remains even in sights
@@ -219,9 +219,25 @@ SWEP.Animations = {
 SWEP.DefaultBodygroups = "00000000000000000000000"
 
 SWEP.AttachmentElements = {
-    ["hg_custom"] = {
-        VMBodygroups = {{ind = 1, bg = 1}},
+    ["fs_long"] = {
+        VMBodygroups = {{ind = 2, bg = 2}},
     },
+    ["longtac"] = {
+        AttPosMods = {
+            [4] = {
+                vpos = Vector(-1.85, -4.8, -5), -- offset that the attachment will be relative to the bone
+                vang = Angle(90, 0, -90),
+            },
+            [3] = {
+                vpos = Vector(-1.2, -3.1, 15), -- offset that the attachment will be relative to the bone
+                vang = Angle(90, 0,0),
+            },
+            [5] = {
+                vpos = Vector(0, -3.05, 20), -- offset that the attachment will be relative to the bone
+                vang = Angle(-90, 0 ,-90),
+            },
+        }
+    }
 }
 
 
@@ -251,8 +267,8 @@ SWEP.Hook_ModifyBodygroups = function(wep, data)
 
     -- Apply additional bodygroup modifications based on optic presence
     if hasOptic then
-        vm:SetBodygroup(2, 1)  -- Custom bodygroup change for optics
-        vm:SetBodygroup(1, 1)
+        vm:SetBodygroup(1, 1)  -- Custom bodygroup change for optics
+        vm:SetBodygroup(2, 1)
     end
 end
 
@@ -265,6 +281,16 @@ end
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
             vpos = Vector(0, -4.7, 0.6), -- offset that the attachment will be relative to the bone
+            vang = Angle(90, 0, -90),
+        },
+    },
+    {
+        PrintName = "Barrel", -- print name
+        DefaultAttName = "HRM Factory",
+        Slot = {"hg_hrm9"}, -- what kind of attachments can fit here, can be string or table
+        Bone = "weapon", -- relevant bone any attachments will be mostly referring to
+        Offset = {
+            vpos = Vector(3.05, -6, -14), -- offset that the attachment will be relative to the bone
             vang = Angle(90, 0, -90),
         },
     },
