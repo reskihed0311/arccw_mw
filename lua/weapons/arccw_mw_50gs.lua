@@ -224,9 +224,13 @@ SWEP.AttachmentElements = {
     },
     ["50gs_tyrantfifty"] = {
         AttPosMods = {
-            [4] = {
+            [5] = {
                 vpos = Vector(0, -2.5,9.3), -- offset that the attachment will be relative to the bone
                 vang = Angle(-90, 0, -90),
+            },
+            [3] = {
+                vpos = Vector(0, -1.2,7), -- offset that the attachment will be relative to the bone
+                vang = Angle(90, 0, -90),
             }
         }
     }
@@ -256,10 +260,22 @@ SWEP.Attachments = {
         },
     },
     {
+        PrintName = "Tactical", -- print name
+        DefaultAttName = "Nothing",
+        Slot = {"tac_lite"}, -- what kind of attachments can fit here, can be string or table
+        GivesFlags = {"nogrip"},
+        Bone = "weapon", -- relevant bone any attachments will be mostly referring to
+        Offset = {
+            vpos = Vector(0, -1.2,5), -- offset that the attachment will be relative to the bone
+            vang = Angle(90, 0, -90),
+        },
+    },
+    {
         PrintName = "Foregrip Slot", -- print name
         DefaultAttName = "Your hand",
         Slot = {"grip_mw"}, -- what kind of attachments can fit here, can be string or table
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
+        ExcludeFlags = {"nogrip"},
         Offset = {
             vpos = Vector(-1.85, -4.2, -14), -- offset that the attachment will be relative to the bone
             vang = Angle(90, 0, -90),

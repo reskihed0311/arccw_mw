@@ -67,7 +67,7 @@ SWEP.RecoilPunchBackMaxSights = nil -- may clip with scopes
 SWEP.RecoilVMShake = 1-- random viewmodel offset when shooty
 
 
-SWEP.Sway = 0.10
+SWEP.Sway = 1
 
 
 
@@ -234,6 +234,16 @@ SWEP.Attachments = {
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
             vpos = Vector(0, -4, 17), -- offset that the attachment will be relative to the bone
+            vang = Angle(90, 0, -90),
+        },
+    },
+    {
+        PrintName = "Bipod", -- print name
+        DefaultAttName = "None",
+        Slot = {"bipod_mw"}, -- what kind of attachments can fit here, can be string or table
+        Bone = "weapon", -- relevant bone any attachments will be mostly referring to
+        Offset = {
+            vpos = Vector(-1.85, -4.8, 0), -- offset that the attachment will be relative to the bone
             vang = Angle(90, 0, -90),
         },
     },

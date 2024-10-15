@@ -211,6 +211,18 @@ SWEP.AttachmentElements = {
     ["fs_mid"] = {
         VMBodygroups = {{ind = 6, bg = 2}},
     },
+    ["fs_long"] = {
+        VMBodygroups = {{ind = 6, bg = 3}},
+    },
+    ["barhvytac"] = {
+        AttPosMods = {
+            [5] = {
+
+     vpos = Vector(0, -2.52, 17), -- offset that the attachment will be relative to the bone
+            vang = Angle(-90, 0 ,-90),
+            }
+        }
+    }
 }
 
 

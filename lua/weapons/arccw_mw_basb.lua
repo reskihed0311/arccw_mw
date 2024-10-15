@@ -302,6 +302,7 @@ end
         PrintName = "Foregrip Slot", -- print name
         DefaultAttName = "Your hand",
         Slot = {"grip_mw"}, -- what kind of attachments can fit here, can be string or table
+        Slot = {"grip_mw", "bipod_mw"}, -- what kind of attachments can fit here, can be string or table
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
             vpos = Vector(-1.85, -4.9, -8), -- offset that the attachment will be relative to the bone

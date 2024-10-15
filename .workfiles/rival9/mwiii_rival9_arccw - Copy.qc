@@ -44,6 +44,7 @@ $bodygroup "fs"
     studio "fs_short.dmx"
 	blank
 	studio "fs_mid.dmx"
+	studio "fs_long.dmx"
 }
 
 
