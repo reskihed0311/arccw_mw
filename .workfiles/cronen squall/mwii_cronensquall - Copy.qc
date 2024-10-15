@@ -32,6 +32,7 @@ $bodygroup "pgrip"
 $bodygroup "bar"
 {
      studio "bardef.dmx"
+	 blank
 }
 
 

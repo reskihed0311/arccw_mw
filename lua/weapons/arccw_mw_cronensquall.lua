@@ -216,6 +216,11 @@ SWEP.Animations = {
 
 SWEP.DefaultBodygroups = "00000000000000000000000"
 
+SWEP.AttachmentElements = {
+    ["hg_custom"] = {
+        VMBodygroups = {{ind = 4, bg = 1}},
+    },
+}
 
 
 --code by chatgpt
@@ -268,6 +273,17 @@ end
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
             vpos = Vector(-1.85, -4.5, -8.5), -- offset that the attachment will be relative to the bone
+            vang = Angle(90, 0, -90),
+        },
+    },
+    {
+        PrintName = "Barrel", -- print name
+        DefaultAttName = "SQUALL Factory",
+        Slot = {"cs_hg"}, -- what kind of attachments can fit here, can be string or table
+        Bone = "weapon", -- relevant bone any attachments will be mostly referring to
+        InstalledEles = {"hg_custom"},
+        Offset = {
+            vpos = Vector(3.15, -5.44, -15.55), -- offset that the attachment will be relative to the bone
             vang = Angle(90, 0, -90),
         },
     },
