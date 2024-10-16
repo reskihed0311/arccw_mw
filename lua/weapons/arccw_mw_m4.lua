@@ -239,6 +239,9 @@ SWEP.AttachmentElements = {
     ["fs_classic"] = {
         VMBodygroups = {{ind = 2, bg = 5}},
     },
+    ["fs_classiclong"] = {
+        VMBodygroups = {{ind = 2, bg = 6}},
+    },
     ["tempus_trenchpro"] = {
         AttPosMods = {
             [3] = {
@@ -251,6 +254,22 @@ SWEP.AttachmentElements = {
             },
             [4] = {
                 vpos = Vector(0, -2.9, 17), -- offset that the attachment will be relative to the bone
+            vang = Angle(90, 0, -90),
+            },
+        },
+    },
+    ["hightower"] = {
+        AttPosMods = {
+            [3] = {
+                vpos = Vector(-1.85, -3.7, -7.5),
+                vang = Angle (90, 0, -90),
+            },
+            [5] = {
+                vpos = Vector(0, -1.7, 23),
+                vang = Angle (-90, 0, -90),
+            },
+            [4] = {
+                vpos = Vector(0, -2.9, 14), -- offset that the attachment will be relative to the bone
             vang = Angle(90, 0, -90),
             },
         },

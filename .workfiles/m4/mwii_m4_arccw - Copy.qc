@@ -22,6 +22,7 @@ $bodygroup "fs"
 	studio "fs_short.dmx"
 	studio "fs_smallmid.dmx"
 		studio "fs_classic.dmx"
+		studio "fs_classic_long2.dmx"
 }
 
 
