@@ -1,7 +1,7 @@
 att.PrintName = "HIGHTOWER 20'"
 
 
-att.Description = "A long , lightweight handguard for maneuvrability."
+att.Description = "A long , handguard for recoil control , and accuracy."
 
 att.Desc_Pros = {
 }
