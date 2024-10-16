@@ -14,7 +14,7 @@ att.Model = "models/atts/irons/att_fs_carrynalde.mdl"
 
 att.ActivateElements = {"nors"}
 
-att.ModelOffset = Vector(-1.2, 0, 0.85)
+att.ModelOffset = Vector(-1.5, 0, 0.85)
 
 
 att.AdditionalSights = {
