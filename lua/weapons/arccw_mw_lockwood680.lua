@@ -133,7 +133,7 @@ SWEP.IronSightStruct = {
 }
 
 
-SWEP.SightTime = 0.22
+SWEP.SightTime = 0.20
 
 
 SWEP.ActivePos = Vector(0, -2, 0)

@@ -12,7 +12,7 @@ att.ModelOffset = Vector(0, 0, 0)
 att.Model = "models/atts/ub/att_grip_ftacripper56.mdl"
 
 att.Mult_Recoil = 0.90
-att.Mult_SightTime = 1.25
+att.Mult_SightTime = 1.10
 att.Mult_DrawTime = 0.95
 att.Mult_HolsterTime = 0.95
 att.Mult_ReloadTime = 0.90

@@ -30,6 +30,6 @@ att.HolosightNoFlare = true
 att.HolosightSize = 1.5
 att.HolosightBone = "holosight"
 
-att.Mult_SightTime = 1.05
+att.Mult_SightTime = 1.02
 
 att.Colorable = false

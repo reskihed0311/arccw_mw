@@ -64,7 +64,7 @@ att.HolosightPiece = "models/atts/optic/att_opt_aresclearshot_hsp.mdl"
 att.HolosightNoFlare = true
 att.HolosightSize = 1
 
-att.Mult_SightTime = 1.05
+att.Mult_SightTime = 1.08
 
 att.Colorable = false
 

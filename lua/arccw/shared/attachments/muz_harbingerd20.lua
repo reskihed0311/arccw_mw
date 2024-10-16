@@ -20,8 +20,6 @@ att.Mult_ShootVol = 0.75
 att.Mult_AccuracyMOA = 0.75
 att.Mult_Range = 1.25
 att.Mult_Recoil = 0.750
-att.Mult_Damage = 0.90
-att.Mult_DamageMin = 0.90
 
 att.Mult_SightTime = 1.2
-att.Mult_HipDispersion = 1.5
+att.Mult_HipDispersion = 1.15
