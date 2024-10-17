@@ -41,9 +41,9 @@ SWEP.WorldModelOffset =
 
 
 SWEP.Damage = 18
-SWEP.DamageMin = 2 -- damage done at maximum range
+SWEP.DamageMin = 7 -- damage done at maximum range
 
-SWEP.Range = 50 -- in METRES
+SWEP.Range = 80 -- in METRES
 SWEP.Penetration = 3
 SWEP.DamageType = DMG_BUCKSHOT
 
