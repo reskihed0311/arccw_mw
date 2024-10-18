@@ -253,7 +253,7 @@ SWEP.Attachments = {
         Slot = {"muzzle"}, -- what kind of attachments can fit here, can be string or table
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
-            vpos = Vector(0, -2.9, 25), -- offset that the attachment will be relative to the bone
+            vpos = Vector(0, -2.9, 30), -- offset that the attachment will be relative to the bone
             vang = Angle(-90, 0 ,0),
         },
     },
