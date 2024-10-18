@@ -20,7 +20,7 @@ att.Mult_Recoil = 0.80
 att.Mult_AccuracyMOA = 0.85
 att.Mult_SightedSpeedMult = 0.60
 att.Mult_SightTime = 1.45
-att.Mult_SpeedMult = 0.70
+att.Mult_SpeedMult = 0.90
 
 att.Model = "models/atts/hgs/ak/att_hg_ak_hvyrpk.mdl"
 att.ActivateElements = {"kas10"}

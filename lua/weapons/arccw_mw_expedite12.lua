@@ -40,7 +40,7 @@ SWEP.WorldModelOffset =
 }
 
 
-SWEP.Damage = 20
+SWEP.Damage = 25
 SWEP.DamageMin = 9 -- damage done at maximum range
 
 SWEP.Range = 80 -- in METRES
@@ -74,7 +74,7 @@ SWEP.Sway = 0.27
 
 
 
-SWEP.Delay = 60 / 155 -- 60 / RPM.
+SWEP.Delay = 60 / 250 -- 60 / RPM.
 
 
 SWEP.Firemodes = {
@@ -87,8 +87,8 @@ SWEP.Firemodes = {
 
 }
 
-SWEP.AccuracyMOA = 75 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 350 -- inaccuracy added by hip firing.
+SWEP.AccuracyMOA = 25-- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.HipDispersion = 230 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 150 -- inaccuracy added by moving. Applies in sights as well! Walking speed is considered as "maximum".
 SWEP.SightsDispersion = 0-- dispersion that remains even in sights
 SWEP.JumpDispersion = 300 -- dispersion penalty when in the air
@@ -122,9 +122,9 @@ SWEP.ProceduralViewBobAttachment = nil -- attachment on which coolview is affect
 SWEP.CamAttachment = nil -- if set, this attachment will control camera movement
 SWEP.MuzzleFlashColor = Color(244, 209, 66)
 
-SWEP.SpeedMult = 0.85
-SWEP.SightedSpeedMult = 0.80
-SWEP.ShootSpeedMult = 0.80
+SWEP.SpeedMult = 0.9
+SWEP.SightedSpeedMult = 0.9
+SWEP.ShootSpeedMult = 0.85
 
 
 SWEP.IronSightStruct = {

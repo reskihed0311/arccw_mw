@@ -88,14 +88,14 @@ SWEP.Firemodes = {
 }
 
 SWEP.AccuracyMOA = 50 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 500 -- inaccuracy added by hip firing.
+SWEP.HipDispersion = 200 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 150 -- inaccuracy added by moving. Applies in sights as well! Walking speed is considered as "maximum".
 SWEP.SightsDispersion = 0-- dispersion that remains even in sights
 SWEP.JumpDispersion = 300 -- dispersion penalty when in the air
 
 
 SWEP.Primary.Ammo = "buckshot" -- what ammo type the gun uses
-SWEP.Num = 7 -- number of shots per trigger pull.
+SWEP.Num = 8 -- number of shots per trigger pull.
 
 
 SWEP.ShootVol = 125 -- volume of shoot sound

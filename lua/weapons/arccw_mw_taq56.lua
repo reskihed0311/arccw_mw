@@ -38,8 +38,8 @@ SWEP.WorldModelOffset =
     scale = 0.95,
 }
 
-SWEP.Damage = 32
-SWEP.DamageMin = 28 -- damage done at maximum range
+SWEP.Damage = 38
+SWEP.DamageMin = 30-- damage done at maximum range
 
 SWEP.Range = 800 -- in METRES
 SWEP.Penetration = 15
@@ -120,9 +120,9 @@ SWEP.ProceduralViewBobAttachment = nil -- attachment on which coolview is affect
 SWEP.CamAttachment = nil -- if set, this attachment will control camera movement
 SWEP.MuzzleFlashColor = Color(244, 209, 66)
 
-SWEP.SpeedMult = 0.85
-SWEP.SightedSpeedMult = 0.75
-SWEP.ShootSpeedMult = 0.70
+SWEP.SpeedMult = 0.90
+SWEP.SightedSpeedMult = 0.85
+SWEP.ShootSpeedMult = 0.80
 
 
 SWEP.IronSightStruct = {

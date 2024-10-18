@@ -120,9 +120,9 @@ SWEP.ProceduralViewBobAttachment = nil -- attachment on which coolview is affect
 SWEP.CamAttachment = nil -- if set, this attachment will control camera movement
 SWEP.MuzzleFlashColor = Color(244, 209, 66)
 
-SWEP.SpeedMult = 0.8
-SWEP.SightedSpeedMult = 0.65
-SWEP.ShootSpeedMult = 0.60
+SWEP.SpeedMult = 0.85
+SWEP.SightedSpeedMult = 0.85
+SWEP.ShootSpeedMult = 0.8
 
 
 SWEP.IronSightStruct = {
