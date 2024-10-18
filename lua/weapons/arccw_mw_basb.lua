@@ -225,7 +225,7 @@ SWEP.AttachmentElements = {
         VMBodygroups = {{ind = 7 , bg = 1}}
     },
     ["fs_short"] = {
-        VMBodygroups = {{ind = 2, bg = 3}},
+        VMBodygroups = {{ind = 2, bg = 2}},
     },
     ["fs_long"] = {
         VMBodygroups = {{ind = 2, bg = 2}},
@@ -240,8 +240,19 @@ SWEP.AttachmentElements = {
                 vang = Angle(-90, 0 ,0),
             },
         },
+        
     
         },
+        ["sbr"] = {
+            AttPosMods = {
+                [5] = {
+                    vpos = Vector(0, -2.95, 16), -- offset that the attachment will be relative to the bone
+                    vang = Angle(-90, 0 ,0),
+                },
+            },
+            
+        
+            },
 }
 
 --code by chatgpt

@@ -40,8 +40,8 @@ SWEP.WorldModelOffset =
 }
 
 
-SWEP.Damage = 48
-SWEP.DamageMin = 33 -- damage done at maximum range
+SWEP.Damage = 53
+SWEP.DamageMin = 30 -- damage done at maximum range
 
 SWEP.Range = 600 -- in METRES
 SWEP.Penetration = 12
