@@ -226,8 +226,8 @@ SWEP.AttachmentElements = {
         VMBodygroups = {{ind = 4, bg = 2}},
         AttPosMods = {
             [5] = {
-                vpos = Vector(0, -2.05, 30),
-                vang = Angle (90, 0, -90),
+                vpos = Vector(0, -2.05, 22), -- offset that the attachment will be relative to the bone
+                vang = Angle(-90, 0 ,-90),
             },
         },
     },
@@ -235,8 +235,8 @@ SWEP.AttachmentElements = {
         VMBodygroups = {{ind = 4, bg = 1}},
         AttPosMods = {
             [5] = {
-                vpos = Vector(0, -2.05, 24),
-                vang = Angle (90, 0, -90),
+                vpos = Vector(0, -2.05, 16), -- offset that the attachment will be relative to the bone
+                vang = Angle(-90, 0 ,-90),
             },
     
         },
@@ -318,7 +318,7 @@ end
         Slot = {"muzzle"}, -- what kind of attachments can fit here, can be string or table
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
-            vpos = Vector(0, -2.05, 16.5), -- offset that the attachment will be relative to the bone
+            vpos = Vector(0, -2.05, 18), -- offset that the attachment will be relative to the bone
             vang = Angle(-90, 0 ,-90),
         },
     },
