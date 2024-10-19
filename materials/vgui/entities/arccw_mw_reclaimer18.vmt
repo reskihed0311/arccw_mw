@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/entities/arccw_mw_reclaimer18"
+	"$translucent" 1
+}
