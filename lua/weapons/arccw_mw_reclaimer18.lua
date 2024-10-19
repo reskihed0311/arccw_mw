@@ -41,9 +41,9 @@ SWEP.WorldModelOffset =
 
 
 SWEP.Damage = 25
-SWEP.DamageMin = 8 -- damage done at maximum range
+SWEP.DamageMin = 2 -- damage done at maximum range
 
-SWEP.Range = 60-- in METRES
+SWEP.Range = 45-- in METRES
 SWEP.Penetration = 5
 SWEP.DamageType = DMG_BUCKSHOT
 
@@ -74,7 +74,7 @@ SWEP.Sway = 0.27
 
 
 
-SWEP.Delay = 60 / 450-- 60 / RPM.
+SWEP.Delay = 60 / 270-- 60 / RPM.
 
 
 SWEP.Firemodes = {
