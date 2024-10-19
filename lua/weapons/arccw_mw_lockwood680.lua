@@ -41,9 +41,9 @@ SWEP.WorldModelOffset =
 
 
 SWEP.Damage = 30
-SWEP.DamageMin = 12 -- damage done at maximum range
+SWEP.DamageMin = 8 -- damage done at maximum range
 
-SWEP.Range = 100 -- in METRES
+SWEP.Range = 75 -- in METRES
 SWEP.Penetration = 3
 SWEP.DamageType = DMG_BUCKSHOT
 
@@ -87,8 +87,8 @@ SWEP.Firemodes = {
 
 }
 
-SWEP.AccuracyMOA = 50 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 200 -- inaccuracy added by hip firing.
+SWEP.AccuracyMOA = 20 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.HipDispersion = 150 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 150 -- inaccuracy added by moving. Applies in sights as well! Walking speed is considered as "maximum".
 SWEP.SightsDispersion = 0-- dispersion that remains even in sights
 SWEP.JumpDispersion = 300 -- dispersion penalty when in the air
@@ -123,8 +123,8 @@ SWEP.CamAttachment = nil -- if set, this attachment will control camera movement
 SWEP.MuzzleFlashColor = Color(244, 209, 66)
 
 SWEP.SpeedMult = 0.85
-SWEP.SightedSpeedMult = 0.80
-SWEP.ShootSpeedMult = 0.80
+SWEP.SightedSpeedMult = 0.85
+SWEP.ShootSpeedMult = 0.85
 
 
 SWEP.IronSightStruct = {

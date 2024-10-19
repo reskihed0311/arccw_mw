@@ -58,8 +58,8 @@ SWEP.Primary.ClipSize = 75 -- DefaultClip is automatically set.
 
 
 
-SWEP.Recoil = 1.25
-SWEP.RecoilSide = 0.2
+SWEP.Recoil = 1.35
+SWEP.RecoilSide = 0.35
 SWEP.RecoilRise = 0.8
 SWEP.MaxRecoilBlowback = -1
 SWEP.VisualRecoilMult = 0
@@ -88,7 +88,7 @@ SWEP.Firemodes = {
 
 }
 
-SWEP.AccuracyMOA = 18 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 23 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 750 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 250 -- inaccuracy added by moving. Applies in sights as well! Walking speed is considered as "maximum".
 SWEP.SightsDispersion = 0 -- dispersion that remains even in sights

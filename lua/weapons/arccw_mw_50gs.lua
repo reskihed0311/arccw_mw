@@ -88,7 +88,7 @@ SWEP.Firemodes = {
 }
 
 SWEP.AccuracyMOA = 22 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 750 -- inaccuracy added by hip firing.
+SWEP.HipDispersion = 100 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 250 -- inaccuracy added by moving. Applies in sights as well! Walking speed is considered as "maximum".
 SWEP.SightsDispersion = 0-- dispersion that remains even in sights
 SWEP.JumpDispersion = 300 -- dispersion penalty when in the air

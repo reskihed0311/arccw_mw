@@ -48,6 +48,6 @@ att.HolosightConstDist = 42
 att.HolosightMagnificationMin = 1.1
 att.HolosightMagnificationMax = 2
 
-att.Mult_SightTime = 1.4
-att.Mult_SightedSpeedMult = 0.75
-att.Mult_SpeedMult = 0.875
+att.Mult_SightTime = 1.15
+att.Mult_SightedSpeedMult = 0.95
+att.Mult_SpeedMult = 1
