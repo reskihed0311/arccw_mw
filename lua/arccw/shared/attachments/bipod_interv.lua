@@ -19,5 +19,5 @@ att.Bipod = true
 att.Mult_BipodRecoil = 0.10
 att.Mult_BipodDispersion = 0.10
 
-att.Mult_SightTime = 1.25
+att.Mult_SightTime = 1.10
 att.Mult_SpeedMult = 0.90
