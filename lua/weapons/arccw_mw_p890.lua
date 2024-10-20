@@ -43,7 +43,7 @@ SWEP.WorldModelOffset =
 SWEP.Damage = 52
 SWEP.DamageMin = 15 -- damage done at maximum range
 
-SWEP.Range = 200 -- in METRES
+SWEP.Range = 95 -- in METRES
 SWEP.Penetration = 5
 SWEP.DamageType = DMG_BULLET
 
