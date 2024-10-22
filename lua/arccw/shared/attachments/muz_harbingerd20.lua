@@ -13,7 +13,7 @@ att.Model = "models/atts/muz/att_muz_harbingerd20.mdl"
 
 att.Silencer = true
 att.Override_MuzzleEffect = "muzzleflash_suppressed"
-att.IsMuzzleDevice = true
+att.IsMuzzleDevice = false
 
 att.Mult_ShootPitch = 0.9
 att.Mult_ShootVol = 0.75

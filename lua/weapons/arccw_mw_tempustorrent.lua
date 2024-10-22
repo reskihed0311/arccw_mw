@@ -28,7 +28,7 @@ SWEP.ViewModel = "models/weapons/arccw_mwr_tempustorrent.mdl" -- I mean, you pro
 SWEP.WorldModel = "models/weapons/w_rif_m4a1.mdl"
 
 SWEP.MirrorVMWM = true -- Copy the viewmodel, along with all its attachments, to the worldmodel. Super convenient!
-SWEP.MirrorWorldModel = "models/weapons/arccw_mwr_tempustorrent.mdl" -- Use this to set the mirrored viewmodel to a different model, without any floating speedloaders or cartridges you may have. Needs MirrorVMWM
+SWEP.MirrorWorldModel = "models/weapons/arccw_mwr_tempustorrent_wm.mdl" -- Use this to set the mirrored viewmodel to a different model, without any floating speedloaders or cartridges you may have. Needs MirrorVMWM
 
 
 SWEP.WorldModelOffset =
@@ -204,7 +204,7 @@ SWEP.Animations = {
        SoundTable = {	
         {s = "weapons/tempustorrent/magout.wav" , t = 0.75},
         {s = "weapons/tempustorrent/maghit.wav" , t = 1.4},
-        {s = "weapons/tempustorrent/magin.wav" , t = 1.45   },
+        {s = "weapons/tempustorrent/magin.wav" , t = 1.50   },
        },
    },
    }
@@ -258,7 +258,7 @@ end
         Slot = {"optic" , "optic_sniper"}, -- what kind of attachments can fit here, can be string or table
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
-            vpos = Vector(0, -3.8, 2.5), -- offset that the attachment will be relative to the bone
+            vpos = Vector(0, -3.7, 2.5), -- offset that the attachment will be relative to the bone
             vang = Angle(90, 0, -90),
         },
     },
@@ -268,7 +268,7 @@ end
         Slot = {"grip_mw", "bipod_mw"}, -- what kind of attachments can fit here, can be string or table
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
-            vpos = Vector(-1.85, -4.1, -8), -- offset that the attachment will be relative to the bone
+            vpos = Vector(-1.85, -4.3, -8), -- offset that the attachment will be relative to the bone
             vang = Angle(90, 0, -90),
         },
     },
@@ -278,7 +278,7 @@ end
         Slot = {"tac"}, -- what kind of attachments can fit here, can be string or table
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
-            vpos = Vector(0, -3.8, 13.5), -- offset that the attachment will be relative to the bone
+            vpos = Vector(0, -3.7, 13.5), -- offset that the attachment will be relative to the bone
             vang = Angle(90, 0, -90),
         },
     },
