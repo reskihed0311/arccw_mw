@@ -214,6 +214,12 @@ SWEP.DefaultBodygroups = "00000000000000000000000"
 
 
 SWEP.AttachmentElements = {
+    ["receivertop"] = {
+        VMBodygroups = {{ind = 0 , bg = 1}},
+    },
+    ["guard"] = {
+        VMBodygroups = {{ind = 6 , bg = 1}},
+    }
 }
 
 --code by chatgpt
@@ -245,8 +251,8 @@ SWEP.Hook_ModifyBodygroups = function(wep, data)
 
     -- Apply additional bodygroup modifications based on optic presence
     if hasOptic then
-        vm:SetBodygroup(1, 1)  -- Custom bodygroup change for optics
-        vm:SetBodygroup(2, 1)
+        vm:SetBodygroup(2, 1)  -- Custom bodygroup change for optics
+        vm:SetBodygroup(3, 1)
     end
 end
 
@@ -259,6 +265,16 @@ end
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
             vpos = Vector(0, -3.7, 2.5), -- offset that the attachment will be relative to the bone
+            vang = Angle(90, 0, -90),
+        },
+    },
+    {
+        PrintName = "Guard", -- print name
+        DefaultAttName = "Tempus Factory",
+        Slot = {"tempus_guard"}, -- what kind of attachments can fit here, can be string or table
+        Bone = "weapon", -- relevant bone any attachments will be mostly referring to
+        Offset = {
+            vpos = Vector(3.47, -5.25, -15), -- offset that the attachment will be relative to the bone
             vang = Angle(90, 0, -90),
         },
     },

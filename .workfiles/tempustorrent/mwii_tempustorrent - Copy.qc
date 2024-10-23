@@ -4,9 +4,16 @@ $modelname "arccw_mwr_tempustorrent_wm.mdl"
 
 $maxverts 65530
 
-$bodygroup "Receiver"
+$bodygroup "Receiver_Top"
 {
-    studio "Receiver.dmx"
+    studio "Receiver_Top.dmx"
+	blank
+}
+
+
+$bodygroup "Receiver_Lower"
+{
+    studio "receiver_lower.dmx"
 	blank
 }
 
@@ -25,7 +32,7 @@ $bodygroup "fs"
 
 $bodygroup "mag"
 {
-    studio "magwm.dmx"
+    studio "mag3.dmx"
 }
 
 
@@ -55,6 +62,7 @@ $bodygroup "stock"
     studio "stockdef.dmx"
 	blank
 }
+
 
 
 $cdmaterials "models\weapons\mw_r\m4"

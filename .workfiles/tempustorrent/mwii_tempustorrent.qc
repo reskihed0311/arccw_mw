@@ -4,9 +4,16 @@ $modelname "arccw_mwr_tempustorrent.mdl"
 
 $maxverts 65530
 
-$bodygroup "Receiver"
+$bodygroup "Receiver_Top"
 {
-    studio "Receiver.dmx"
+    studio "Receiver_Top.dmx"
+	blank
+}
+
+
+$bodygroup "Receiver_Lower"
+{
+    studio "receiver_lower.dmx"
 	blank
 }
 
