@@ -190,7 +190,7 @@ SWEP.Animations = {
        LHIKEaseIn = 0.1, -- how long LHIK eases in.
            LHIK = true, -- basically disable foregrips on this anim
            SoundTable = {	
-            {s = "weapons/m13b/raise_rattle.wav", t = 0},
+            {s = "weapons/m13b/raise_rattle.wav", t = 0.01},
             {s = "weapons/m13b/magout_empty.wav" , t = 0.27},
             {s = "shared/magdrops/ar_poly.wav" , t = 1},
             {s = "weapons/m13b/raise.wav", t = 1.5},  
@@ -209,7 +209,7 @@ SWEP.Animations = {
        LHIKEaseOut = 0.1, -- how long LHIK eases in.
        LHIKEaseIn = 0.1, -- how long LHIK eases in.
        SoundTable = {	
-        {s = "weapons/m13b/raise_rattle.wav", t = 0},
+        {s = "weapons/m13b/raise_rattle.wav", t = 0.01},
         {s = "weapons/m13b/magout.wav" , t = 0.62},
         {s = "weapons/m13b/raise.wav" , t = 0.95},
         {s = "weapons/m13b/magin.wav" , t = 1.2},
