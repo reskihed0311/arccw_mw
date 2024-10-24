@@ -190,11 +190,14 @@ SWEP.Animations = {
        LHIKEaseIn = 0.1, -- how long LHIK eases in.
            LHIK = true, -- basically disable foregrips on this anim
            SoundTable = {	
+            {s = "weapons/taq56/raise.wav", t = 0},
             {s = "weapons/taq56/magrel.wav" , t = 0.30},
             {s = "weapons/taq56/magout_empty.wav" , t = 0.38},
+            {s = "shared/magdrops/ar_metal.wav", t = 0.80},
             {s = "weapons/taq56/maghit_empty.wav" , t = 1.45},
             {s = "weapons/taq56/magin_empty.wav" , t = 1.48},
             {s = "weapons/taq56/boltrel.wav" , t = 2},
+            {s = "weapons/taq56/raise.wav", t = 2.25},
            },
     },
     ["reload"] = {
@@ -206,10 +209,12 @@ SWEP.Animations = {
        LHIKEaseOut = 0.1, -- how long LHIK eases in.
        LHIKEaseIn = 0.1, -- how long LHIK eases in.
        SoundTable = {	
+        {s = "weapons/taq56/raise.wav", t = 0},
         {s = "weapons/taq56/maggrab.wav" , t = 0.52},
         {s = "weapons/taq56/magout.wav" , t = 0.62},
         {s = "weapons/taq56/maghit.wav" , t = 1},
         {s = "weapons/taq56/magin.wav" , t = 1.1},
+        {s = "weapons/taq56/drop.wav", t = 1.5},
        },
    },
    }

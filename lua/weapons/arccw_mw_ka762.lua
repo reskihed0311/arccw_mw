@@ -179,8 +179,11 @@ SWEP.Animations = {
        LHIKEaseIn = 0.1, -- how long LHIK eases in.
            LHIK = true, -- basically disable foregrips on this anim
            SoundTable = {	
+            {s = "weapons/ka762/raise_first.wav", t = 0},
             {s = "weapons/ka762/magout_empty.wav" , t = 0.5},
             {s = "weapons/ka762/magin_empty.wav" , t = 1.19},
+            {s = "shared/magdrops/ak_poly.wav" , t = 1.35},
+            {s = "weapons/ka762/raise_shoulder.wav" , t = 1.80},
             {s = "weapons/ka762/boltback.wav" , t = 1.95},
             {s = "weapons/ka762/boltfwd.wav" , t = 2.2},
            },
@@ -194,9 +197,11 @@ SWEP.Animations = {
        LHIKEaseOut = 0.1, -- how long LHIK eases in.
        LHIKEaseIn = 0.1, -- how long LHIK eases in.
        SoundTable = {	
+        {s = "weapons/ka762/raise_first.wav", t = 0},
         {s = "weapons/ka762/maggrab.wav" , t = 0.45},
         {s = "weapons/ka762/magout.wav" , t = 0.55},
         {s = "weapons/ka762/magin_empty.wav" , t = 1.05},
+        {s = "weapons/ka762/drop.wav" , t = 1.35},
        },
    },
    }
