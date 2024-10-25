@@ -219,6 +219,9 @@ SWEP.AttachmentElements = {
     },
     ["guard"] = {
         VMBodygroups = {{ind = 6 , bg = 1}},
+    },
+    ["stock_custom"] = {
+        VMBodygroups = {{ind = 8 , bg = 1}},
     }
 }
 
@@ -306,6 +309,17 @@ end
         Offset = {
             vpos = Vector(0, -2.35, 23), -- offset that the attachment will be relative to the bone
             vang = Angle(-90, 0 ,-90),
+        },
+    },
+    {
+        PrintName = "Stock", -- print name
+        DefaultAttName = "TORRENT Span-9",
+        Slot = {"ar10_stock"}, -- what kind of attachments can fit here, can be string or table
+        Bone = "weapon", -- relevant bone any attachments will be mostly referring to
+        InstalledEles = {"stock_custom"},
+        Offset = {
+            vpos = Vector(3.25, -5.7, -14), -- offset that the attachment will be relative to the bone
+            vang = Angle(90, 0, -90),
         },
     },
 }

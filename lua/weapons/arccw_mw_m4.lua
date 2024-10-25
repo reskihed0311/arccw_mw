@@ -420,7 +420,7 @@ end
     {
         PrintName = "Stock", -- print name
         DefaultAttName = "DEMO MOE Stock",
-        Slot = {"ar_stock"}, -- what kind of attachments can fit here, can be string or table
+        Slot = {"ar15_stock"}, -- what kind of attachments can fit here, can be string or table
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         InstalledEles = {"stock_custom"},
         Offset = {

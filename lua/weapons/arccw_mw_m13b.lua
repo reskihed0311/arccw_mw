@@ -223,6 +223,25 @@ SWEP.DefaultBodygroups = "00000000000000000000000"
 
 
 SWEP.AttachmentElements = {
+    ["hg_custom"] = {
+        VMBodygroups  = {{ind = 5 , bg = 1 }},
+    },
+    ["fs_short"] = {
+        VMBodygroups  = {{ind = 2 , bg = 2 }},
+    }, 
+    ["m13_barshort"] = {
+        AttPosMods = {
+            [5] = {
+                vpos = Vector(0, -2.7,11), -- offset that the attachment will be relative to the bone
+                vang = Angle(-90, 0, -90),
+            },
+			            [4] = {
+               vpos = Vector(0, -4.2, 7.5), -- offset that the attachment will be relative to the bone
+            vang = Angle(90, 0, -90),
+            },
+        },
+ 
+    }
 }
 
 --code by chatgpt
@@ -265,6 +284,17 @@ end
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
             vpos = Vector(0, -4.2, 2), -- offset that the attachment will be relative to the bone
+            vang = Angle(90, 0, -90)
+        },
+    },
+    {
+        PrintName = "Handguard", -- print name
+        DefaultAttName = "BRUEN M13 Factory",
+        Slot = {"m13_hg"}, -- what kind of attachments can fit here, can be string or table
+        Bone = "weapon", -- relevant bone any attachments will be mostly referring to
+        InstalledEles = {"hg_custom"},
+        Offset = {
+            vpos = Vector(3.3, -5.7, -15.7), -- offset that the attachment will be relative to the bone
             vang = Angle(90, 0, -90),
         },
     },
@@ -294,7 +324,7 @@ end
         Slot = {"muzzle"}, -- what kind of attachments can fit here, can be string or table
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
-            vpos = Vector(0, -2.6, 15), -- offset that the attachment will be relative to the bone
+            vpos = Vector(0, -2.7, 15), -- offset that the attachment will be relative to the bone
             vang = Angle(-90, 0 ,-90),
         },
     },

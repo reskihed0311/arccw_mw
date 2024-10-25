@@ -8,7 +8,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 
-att.Slot = "ar_stock"
+att.Slot = {"ar15_stock", "ar10_stock"}
 att.AutoStats = true
 
 att.SortOrder = 0.5 

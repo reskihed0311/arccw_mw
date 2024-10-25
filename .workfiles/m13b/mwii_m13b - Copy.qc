@@ -18,6 +18,7 @@ $bodygroup "fs"
 {
     studio "fs_def.dmx"
 	blank
+	studio "fs_short.dmx"
 }
 
 $bodygroup "mag1"
