@@ -67,7 +67,7 @@ SWEP.RecoilPunch = 0.5
 SWEP.RecoilPunchBackMax = 1
 SWEP.RecoilPunchBackMaxSights = nil -- may clip with scopes
 SWEP.RecoilVMShake = 1-- random viewmodel offset when shooty
-SWEP.ShotgunSpreadDispersion = 1 -- dispersion will cause pattern to increase instead of shifting
+SWEP.ShotgunSpreadDispersion = 1.7 -- dispersion will cause pattern to increase instead of shifting
 
 
 SWEP.Sway = 0.27
