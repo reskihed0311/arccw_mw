@@ -32,7 +32,7 @@ $bodygroup "fs"
 
 $bodygroup "mag"
 {
-    studio "mag3.dmx"
+    studio "magwm.dmx"
 }
 
 
