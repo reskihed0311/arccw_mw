@@ -40,10 +40,10 @@ SWEP.WorldModelOffset =
 }
 
 
-SWEP.Damage = 25
-SWEP.DamageMin = 9 -- damage done at maximum range
+SWEP.Damage = 19
+SWEP.DamageMin = 1 -- damage done at maximum range
 
-SWEP.Range = 80 -- in METRES
+SWEP.Range = 25 -- in METRES
 SWEP.Penetration = 3
 SWEP.DamageType = DMG_BUCKSHOT
 
@@ -58,15 +58,16 @@ SWEP.Primary.ClipSize = 7 -- DefaultClip is automatically set.
 
 
 
-SWEP.Recoil = 4.5
-SWEP.RecoilSide = 0.6
-SWEP.RecoilRise = 1.5
+SWEP.Recoil = 5
+SWEP.RecoilSide = 0.7
+SWEP.RecoilRise = 1.6
 SWEP.MaxRecoilBlowback = -1
 SWEP.VisualRecoilMult = 0
 SWEP.RecoilPunch = 0.5
 SWEP.RecoilPunchBackMax = 1
 SWEP.RecoilPunchBackMaxSights = nil -- may clip with scopes
 SWEP.RecoilVMShake = 1-- random viewmodel offset when shooty
+SWEP.ShotgunSpreadDispersion = 1.2 -- dispersion will cause pattern to increase instead of shifting
 
 
 SWEP.Sway = 0.27
@@ -87,15 +88,15 @@ SWEP.Firemodes = {
 
 }
 
-SWEP.AccuracyMOA = 25-- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 230 -- inaccuracy added by hip firing.
-SWEP.MoveDispersion = 150 -- inaccuracy added by moving. Applies in sights as well! Walking speed is considered as "maximum".
-SWEP.SightsDispersion = 0-- dispersion that remains even in sights
+SWEP.AccuracyMOA = 40 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.HipDispersion = 300 -- inaccuracy added by hip firing.
+SWEP.MoveDispersion = 250 -- inaccuracy added by moving. Applies in sights as well! Walking speed is considered as "maximum".
+SWEP.SightsDispersion = 20-- dispersion that remains even in sights
 SWEP.JumpDispersion = 300 -- dispersion penalty when in the air
 
 
 SWEP.Primary.Ammo = "buckshot" -- what ammo type the gun uses
-SWEP.Num = 6 -- number of shots per trigger pull.
+SWEP.Num = 10 -- number of shots per trigger pull.
 
 
 SWEP.ShootVol = 125 -- volume of shoot sound

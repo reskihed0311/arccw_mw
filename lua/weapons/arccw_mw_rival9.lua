@@ -41,7 +41,7 @@ SWEP.WorldModelOffset =
 SWEP.Damage = 31
 SWEP.DamageMin = 18 -- damage done at maximum range
 
-SWEP.Range = 180 -- in METRES
+SWEP.Range = 35 -- in METRES
 SWEP.Penetration = 15
 SWEP.DamageType = DMG_BULLET
 
@@ -56,7 +56,7 @@ SWEP.Primary.ClipSize = 30 -- DefaultClip is automatically set.
 
 
 
-SWEP.Recoil = 0.9
+SWEP.Recoil = 1.5
 SWEP.RecoilSide = 0.3
 SWEP.RecoilRise = 1
 SWEP.MaxRecoilBlowback = -1

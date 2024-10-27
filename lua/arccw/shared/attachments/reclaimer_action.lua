@@ -25,6 +25,7 @@ att.Override_Firemodes = {
 }
 
 att.Override_ManualAction = true
-att.Mult_AccuracyMOA = 0.5
-att.Mult_Range = 1.35
+att.Mult_AccuracyMOA = 0.6
+att.Mult_Range = 1.30
 att.Mult_Damage = 1.25
+att.Mult_Recoil = 1.2
