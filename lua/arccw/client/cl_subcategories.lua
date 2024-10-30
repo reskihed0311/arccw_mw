@@ -9,8 +9,7 @@ hook.Add("PopulateWeapons", "zzz_ARCCW_SubCategories", function(pnlContent, tree
         -- Build into categories + subcategories
         for k, weapon in pairs(Weapons) do
             if not weapon.Spawnable then continue end
-            if not weapons.IsBasedOn(k, "arccw_base") then continue end
-
+            if not (weapons.IsBasedOn(k, "arccw_base") or weapons.IsBasedOn(k, "arccw_base_nade")) then continue end
             -- Get the weapon category as a string
             local Category = weapon.Category or "Other2"
             local WepTable = weapons.Get(weapon.ClassName)

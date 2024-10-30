@@ -229,6 +229,9 @@ SWEP.AttachmentElements = {
     ["fs_short"] = {
         VMBodygroups  = {{ind = 2 , bg = 2 }},
     }, 
+	    ["fs_long"] = {
+        VMBodygroups  = {{ind = 2 , bg = 3 }},
+    }, 
     ["m13_barshort"] = {
         AttPosMods = {
             [5] = {
@@ -245,6 +248,26 @@ SWEP.AttachmentElements = {
              },
             
         },
+		
+ 
+    },
+	    ["m13_barlong"] = {
+        AttPosMods = {
+            [5] = {
+                vpos = Vector(0, -2.7,18), -- offset that the attachment will be relative to the bone
+                vang = Angle(-90, 0, -90),
+            },
+			            [4] = {
+               vpos = Vector(0, -4.2, 13), -- offset that the attachment will be relative to the bone
+            vang = Angle(90, 0, -90),
+            },
+            [3] = {
+                vpos = Vector(-1.85, -4.5, -7), -- offset that the attachment will be relative to the bone
+                vang = Angle(90, 0, -90),
+             },
+            
+        },
+		
  
     }
 }
