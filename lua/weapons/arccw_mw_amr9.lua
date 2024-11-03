@@ -93,7 +93,7 @@ SWEP.SightsDispersion = 0 -- dispersion that remains even in sights
 SWEP.JumpDispersion = 300 -- dispersion penalty when in the air
 
 
-SWEP.Primary.Ammo = "smg1" -- what ammo type the gun uses
+SWEP.Primary.Ammo = "pistol" -- what ammo type the gun uses
 
 
 SWEP.ShootVol = 125 -- volume of shoot sound
