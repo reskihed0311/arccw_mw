@@ -76,8 +76,8 @@ function ENT:Detonate()
 
         local attacker = self
 
-        if self.Owner:IsValid() then
-            attacker = self.Owner
+        if self:GetOwner():IsValid() then
+            attacker = self:GetOwner()
         end
         util.BlastDamage(self, attacker, self:GetPos(), 400, 150)
 

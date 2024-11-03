@@ -38,7 +38,7 @@ SWEP.WorldModelOffset =
     scale = 0.95,
 }
 
-SWEP.Damage = 32
+SWEP.Damage = 35
 SWEP.DamageMin = 30-- damage done at maximum range
 
 SWEP.Range = 1000 -- in METRES
