@@ -6,7 +6,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW : Call Of Duty" -- edit this if you like
 SWEP.AdminOnly = false
 SWEP.Base = "arccw_base"
-SWEP.ViewModelFOV = 65
+SWEP.ViewModelFOV = 70
 SWEP.SubCategory = "Assault Rifles"
 
 SWEP.PrintName = "M4 Platform"
@@ -56,12 +56,12 @@ SWEP.Primary.ClipSize = 30 -- DefaultClip is automatically set.
 
 
 
-SWEP.Recoil = 1
+SWEP.Recoil = 0.75
 SWEP.RecoilSide = 0.3
-SWEP.RecoilRise = 1.1
+SWEP.RecoilRise = 0.88
 SWEP.MaxRecoilBlowback = -1
 SWEP.VisualRecoilMult = 0
-SWEP.RecoilPunch = 0.5
+SWEP.RecoilPunch = 1
 SWEP.RecoilPunchBackMax = 1
 SWEP.RecoilPunchBackMaxSights = nil -- may clip with scopes
 SWEP.RecoilVMShake = 0.2-- random viewmodel offset when shooty
@@ -190,14 +190,12 @@ SWEP.Animations = {
        LHIKEaseIn = 0.1, -- how long LHIK eases in.
            LHIK = true, -- basically disable foregrips on this anim
            SoundTable = {
-            {s = "weapons/m4/raise.wav", t = 0},
-            {s = "weapons/m4/drop.wav", t = 0.9},
-            {s = "weapons/m4/shoulder.wav", t = 2.35},	
-            {s = "shared/magdrops/ar_poly.wav", t = 0.75},
-            {s = "weapons/m4/magout_empty.wav" , t = 0.4},
-            {s = "weapons/m4/maghit_empty.wav" , t = 1.45},
-            {s = "weapons/m4/magin_empty.wav" , t = 1.62},
-            {s = "weapons/m4/boltcatch.wav" , t = 2.08},
+            {s = "weapons/m4/shoulder.wav", t = 0},
+			{s = "weapons/m4/magout_empty.wav", t = 0.20},
+			{s = "weapons/m4/maghit_empty.wav", t = 1.27},
+			{s = "weapons/m4/magin_empty.wav", t = 1.42},
+			{s = "weapons/m4/boltcatch.wav", t = 1.81},
+			 {s = "weapons/m4/shoulder.wav", t = 2},
            },
     },
     ["reload"] = {
@@ -210,11 +208,10 @@ SWEP.Animations = {
        LHIKEaseIn = 0.1, -- how long LHIK eases in.
        SoundTable = {	
         {s = "weapons/m4/raise.wav", t = 0},
-        {s = "weapons/m4/drop.wav", t = 1},
-        {s = "weapons/m4/shoulder.wav", t = 1.85},
-        {s = "weapons/m4/magout.wav" , t = 0.62},
-        {s = "weapons/m4/maghit_empty.wav" , t = 1.15},
-        {s = "weapons/m4/magin.wav" , t = 1.28},
+		{s = "weapons/m4/magout.wav", t = 0.42},
+		{s = "weapons/m4/maghit_empty.wav", t = 0.95},
+		{s = "weapons/m4/magin.wav", t = 1.05},
+		{s = "weapons/m4/shoulder.wav", t = 1.78},
        },
    },
    }

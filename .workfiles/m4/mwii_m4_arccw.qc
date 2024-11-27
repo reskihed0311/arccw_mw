@@ -148,7 +148,7 @@ $sequence "fire_iron" {
 
 
 $sequence "reload" {
-	"anims\reload.dmx"
+	"anims\reload_v2.dmx"
 	activity "ACT_VM_RELOAD" 1
 	snap
 	fps 30
@@ -156,7 +156,7 @@ $sequence "reload" {
 
 
 $sequence "reload_empty" {
-	"anims\reload_empty.dmx"
+	"anims\reload_empty_v2.dmx"
 	activity "ACT_VM_RELOAD" 1
 	snap
 	fps 30
