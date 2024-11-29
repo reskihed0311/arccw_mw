@@ -29,5 +29,5 @@ att.Mult_Recoil = 2.5
 att.Mult_RPM = 2
 att.Mult_AccuracyMOA = 1.5
 att.Mult_Range = 0.5
-att.Mult_Damage = 1.25
+att.Mult_Damage = 0.95
 att.Mult_DamageMin = 0.55
