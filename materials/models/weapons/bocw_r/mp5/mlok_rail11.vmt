@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models\weapons\bocw_r\mp5\Black_rgb"
+    "$bumpmap" "models\weapons\bocw_r\mp5\Black_n"
+    "$phongexponenttexture" "models\weapons\bocw_r\mp5\Black_e"
+
+    "$color2" "[0 0 0]"
+    "$blendtintbybasealpha" "1"
+
+    "$phong" "1"
+    "$phongboost" "1"
+    "$phongalbedotint" "1"
+    "$phongalbedoboost" "1" //change this if not bright enough
+    "$phongfresnelranges" "[1 0.5 0]"
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "1"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "1"
+
+    "$normalmapalphaenvmapmask" "1"
+    "$envmapfresnel" "1"
+    "$envmap" "env_cubemap"
+    "$envmaptint" "[0.2 0.2 0.2]"
+
+    //remove this if viewing outside of MWB
+}
