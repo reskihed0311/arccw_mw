@@ -191,7 +191,7 @@ SWEP.Animations = {
         {s = "weapons/fjximperium/magin.wav", t = 2},
        },
    },
-   ["cycle"] = {
+  --[[["cycle"] = {
     Source = "cycle",
     ShellEjectAt = 0.8,
     SoundTable = {
@@ -213,6 +213,29 @@ SWEP.Animations = {
             {s = "weapons/fjximperium/boltdown.wav", t = 1.53},
         },
         },
+		}--]]
+     ["cycle"] = {
+       Source = "cycle_v2",
+       TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2, -- third person animation to play when this animation is played
+       SoundTable = {	
+        {s = "weapons/fjximperium/boltgrab.wav", t = 0.09},
+		{s = "weapons/fjximperium/boltup.wav", t = 0.26},
+		{s = "weapons/fjximperium/boltback.wav", t = 0.33},
+		{s = "weapons/fjximperium/boltfwd.wav", t = 0.60},
+		{s = "weapons/fjximperium/boltdown.wav", t = 0.74},
+       },
+   },
+       ["cycle_iron"] = {
+       Source = "cycle_iron_v2",
+       TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2, -- third person animation to play when this animation is played
+       SoundTable = {	
+        {s = "weapons/fjximperium/boltgrab.wav", t = 0.09},
+		{s = "weapons/fjximperium/boltup.wav", t = 0.26},
+		{s = "weapons/fjximperium/boltback.wav", t = 0.33},
+		{s = "weapons/fjximperium/boltfwd.wav", t = 0.60},
+		{s = "weapons/fjximperium/boltdown.wav", t = 0.74},
+       },
+   },
    }
 
 

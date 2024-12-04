@@ -39,9 +39,9 @@ SWEP.WorldModelOffset =
 }
 
 SWEP.Damage = 58
-SWEP.DamageMin = 42 -- damage done at maximum range
+SWEP.DamageMin = 38 -- damage done at maximum range
 
-SWEP.Range = 1000 -- in METRES
+SWEP.Range = 275 -- in METRES
 SWEP.Penetration = 37
 SWEP.DamageType = DMG_BULLET
 
@@ -56,8 +56,8 @@ SWEP.Primary.ClipSize = 20 -- DefaultClip is automatically set.
 
 
 
-SWEP.Recoil = 1
-SWEP.RecoilSide = 0.3
+SWEP.Recoil = 1.2
+SWEP.RecoilSide = 0.35
 SWEP.RecoilRise = 0.45
 SWEP.MaxRecoilBlowback = -1
 SWEP.VisualRecoilMult = 0
@@ -86,7 +86,7 @@ SWEP.Firemodes = {
 
 }
 
-SWEP.AccuracyMOA = 3 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 5 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 550 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 150 -- inaccuracy added by moving. Applies in sights as well! Walking speed is considered as "maximum".
 SWEP.SightsDispersion = 0 -- dispersion that remains even in sights

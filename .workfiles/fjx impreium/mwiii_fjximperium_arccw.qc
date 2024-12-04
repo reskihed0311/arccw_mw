@@ -119,6 +119,20 @@ $sequence "cycle_iron" {
 	fps 30
 }
 
+$sequence "cycle_v2" {
+	"anims\cycle_v2.dmx"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	snap
+	fps 30
+}
+
+$sequence "cycle_iron_v2" {
+	"anims\cycle_v2_iron.dmx"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	snap
+	fps 30
+}
+
 
 
 
