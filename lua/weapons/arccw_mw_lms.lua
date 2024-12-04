@@ -52,7 +52,7 @@ SWEP.TracerCol = Color(255, 255, 255)
 
 
 SWEP.ChamberSize = 1 -- how many rounds can be chambered.
-SWEP.Primary.ClipSize = 1  -- DefaultClip is automatically set.
+SWEP.Primary.ClipSize = 20  -- DefaultClip is automatically set.
 
 
 
@@ -165,7 +165,7 @@ SWEP.Animations = {
            Source = "fire",
            ShellEjectAt = 0,
            },
-   --[[ ["reload_empty"] = {
+   --[[["reload_empty"] = {
            Source = "reload_empty",
            TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2, -- third person animation to play when this animation is played
            LHIKIn = 0.15, -- In/Out controls how long it takes to switch to regular animation.
