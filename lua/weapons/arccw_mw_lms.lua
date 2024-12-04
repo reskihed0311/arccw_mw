@@ -52,7 +52,7 @@ SWEP.TracerCol = Color(255, 255, 255)
 
 
 SWEP.ChamberSize = 1 -- how many rounds can be chambered.
-SWEP.Primary.ClipSize = 10  -- DefaultClip is automatically set.
+SWEP.Primary.ClipSize = 1  -- DefaultClip is automatically set.
 
 
 
@@ -165,7 +165,7 @@ SWEP.Animations = {
            Source = "fire",
            ShellEjectAt = 0,
            },
-    ["reload_empty"] = {
+   --[[ ["reload_empty"] = {
            Source = "reload_empty",
            TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2, -- third person animation to play when this animation is played
            LHIKIn = 0.15, -- In/Out controls how long it takes to switch to regular animation.
@@ -195,6 +195,38 @@ SWEP.Animations = {
         {s = "weapons/lachmann762platform/smagout.wav" , t = 0.3},
 		{s = "weapons/lachmann762platform/smagin.wav" , t = 1.68},
 		{s = "weapons/lachmann762platform/shoulder.wav", t = 2},
+       },
+   },--]]
+   ["reload_empty"] = {
+           Source = "reload_empty_v2",
+           TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2, -- third person animation to play when this animation is played
+           LHIKIn = 0.15, -- In/Out controls how long it takes to switch to regular animation.
+       LHIKOut = 0.15, -- (not actually inverse kinematics)
+       LHIKEaseOut = 0.1, -- how long LHIK eases in.
+       LHIKEaseIn = 0.1, -- how long LHIK eases in.
+           LHIK = true, -- basically disable foregrips on this anim
+           SoundTable = {
+           {s = "weapons/lachmann762platform/raise_up.wav", t = 0},		
+           {s = "weapons/lachmann762platform/lockback.wav" , t = 0.15}, 	
+           {s = "weapons/lachmann762platform/smagout.wav" , t = 0.58},	
+           {s = "weapons/lachmann762platform/smagin.wav" , t = 2.05},	
+		   {s = "weapons/lachmann762platform/release.wav" , t = 2.66},
+           {s = "weapons/lachmann762platform/shoulder.wav", t = 2.85},		   
+           },
+    },
+    ["reload"] = {
+       Source = "reload_v2",
+       TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2, -- third person animation to play when this animation is played
+       LHIK = true, -- basically disable foregrips on this anim
+       LHIKIn = 0.15, -- In/Out controls how long it takes to switch to regular animation.
+       LHIKOut = 0.15, -- (not actually inverse kinematics)
+       LHIKEaseOut = 0.1, -- how long LHIK eases in.
+       LHIKEaseIn = 0.1, -- how long LHIK eases in.
+       SoundTable = {	
+	        {s = "weapons/lachmann762platform/raise_up.wav", t = 0},		
+           {s = "weapons/lachmann762platform/smagout.wav" , t = 0.15},
+           {s = "weapons/lachmann762platform/smagin.wav" , t = 1.52},	
+           {s = "weapons/lachmann762platform/shoulder.wav", t = 1.82},			   
        },
    },
    }
