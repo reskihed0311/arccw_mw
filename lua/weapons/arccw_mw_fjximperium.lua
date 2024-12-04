@@ -107,9 +107,9 @@ SWEP.ShootSoundSilenced = "weapons/fjximperium/fire_sil.wav"
 SWEP.MuzzleEffect = "muzzleflash_g3"
 
 SWEP.ShellModel = "models/shells/shell_338mag.mdl"
-SWEP.ShellScale = 1.2
+SWEP.ShellScale = 1.5
 SWEP.ShellPhysScale = 1
-SWEP.ShellPitch = 50
+SWEP.ShellPitch = 45
 SWEP.ShellSounds = "autocheck"--ArcCW.ShellSoundsTable
 SWEP.ShellRotate = 0
 SWEP.ShellTime = 0.5
@@ -216,7 +216,7 @@ SWEP.Animations = {
 		}--]]
      ["cycle"] = {
        Source = "cycle_v2",
-       TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2, -- third person animation to play when this animation is played
+	   ShellEjectAt = 0.38,
        SoundTable = {	
         {s = "weapons/fjximperium/boltgrab.wav", t = 0.09},
 		{s = "weapons/fjximperium/boltup.wav", t = 0.26},
@@ -227,7 +227,7 @@ SWEP.Animations = {
    },
        ["cycle_iron"] = {
        Source = "cycle_iron_v2",
-       TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2, -- third person animation to play when this animation is played
+	   ShellEjectAt = 0.38,
        SoundTable = {	
         {s = "weapons/fjximperium/boltgrab.wav", t = 0.09},
 		{s = "weapons/fjximperium/boltup.wav", t = 0.26},
