@@ -86,7 +86,7 @@ SWEP.Firemodes = {
 
 }
 
-SWEP.AccuracyMOA = 50 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 20 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 150 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 150 -- inaccuracy added by moving. Applies in sights as well! Walking speed is considered as "maximum".
 SWEP.SightsDispersion = 0 -- dispersion that remains even in sights
@@ -210,6 +210,12 @@ SWEP.AttachmentElements = {
     ["stock_custom"] = {
         VMBodygroups = {{ind = 6 , bg = 1}}
     },
+	   ["hg_custom"] = {
+        VMBodygroups = {{ind = 5 , bg = 1}}
+    },
+	   ["fs_long"] = {
+        VMBodygroups = {{ind = 2 , bg = 2}}
+    },
 }
 
 --code by chatgpt
@@ -252,6 +258,17 @@ end
         Bone = "weapon", -- relevant bone any attachments will be mostly referring to
         Offset = {
             vpos = Vector(0, -3.25, 0), -- offset that the attachment will be relative to the bone
+            vang = Angle(90, 0, -90),
+        },
+    },
+    {
+        PrintName = "Handguard", -- print name
+        DefaultAttName = "AMR9 Default HG",
+        Slot = {"hg_amr9"}, -- what kind of attachments can fit here, can be string or table
+        Bone = "weapon", -- relevant bone any attachments will be mostly referring to
+        InstalledEles = {"hg_custom"},
+        Offset = {
+            vpos = Vector(3.23, -4.85, -11), -- offset that the attachment will be relative to the bone
             vang = Angle(90, 0, -90),
         },
     },
