@@ -29,6 +29,7 @@ att.Override_AmmoPerShot = 2
 att.Override_ChamberSize = 2
 
 att.ActivateElements = {"fs_long"}
+att.GivesFlags = {"nomuz"}
 
 att.LHIK = false
 
