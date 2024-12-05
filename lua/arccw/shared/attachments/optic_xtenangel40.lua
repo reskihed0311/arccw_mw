@@ -30,7 +30,7 @@ att.CustomRangefinder = true
 att.HoloSightPos = Vector(0, 0, 0)  -- Position relative to optic model
 att.HoloSightAng = Angle(0, 0, 0)  -- Angle relative to optic model
 
-att.Mult_SightTime = 1.15
+att.Mult_SightTime = 1.10
 
 att.Colorable = false
 hook.Add("PostDrawViewModel", "CustomRangefinderRender", function(vm, ply, weapon)
