@@ -25,6 +25,6 @@
     "$normalmapalphaenvmapmask" "1"                         //do not touch this
     /////////////////
 
-    "$envmap" "models\mwrshared\specularity_00"
+    "$envmap" "env_cubemap"
     "$envmaptint" "[0.102 0.098 0.098]"                 
 }
