@@ -52,7 +52,7 @@ SWEP.TracerCol = Color(255, 255, 255)
 
 
 SWEP.ChamberSize = 1 -- how many rounds can be chambered.
-SWEP.Primary.ClipSize =20  -- DefaultClip is automatically set.
+SWEP.Primary.ClipSize = 20  -- DefaultClip is automatically set.
 
 
 
@@ -178,7 +178,7 @@ SWEP.Animations = {
            Source = "fire_empty",
            ShellEjectAt = 0,
            },
-    ["reload_empty"] = {
+    --[[["reload_empty"] = {
            Source = "reload_empty",
            TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2, -- third person animation to play when this animation is played
            LHIKIn = 0.15, -- In/Out controls how long it takes to switch to regular animation.
@@ -206,7 +206,36 @@ SWEP.Animations = {
         {s = "weapons/tempustorrent/maghit.wav" , t = 1.4},
         {s = "weapons/tempustorrent/magin.wav" , t = 1.50   },
        },
-   },
+   },--]]
+   ["reload_empty"] = {
+           Source = "reload_empty_v2",
+           TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2, -- third person animation to play when this animation is played
+           LHIKIn = 0.15, -- In/Out controls how long it takes to switch to regular animation.
+       LHIKOut = 0.15, -- (not actually inverse kinematics)
+       LHIKEaseOut = 0.1, -- how long LHIK eases in.
+       LHIKEaseIn = 0.1, -- how long LHIK eases in.
+           LHIK = true, -- basically disable foregrips on this anim
+           SoundTable = {	
+            {s = "weapons/tempustorrent/magout_empty.wav" , t = 0.25 },
+			{s = "weapons/tempustorrent/maghit_empty.wav" , t = 1.2 },
+			{s = "weapons/tempustorrent/magin_emtpy.wav" , t = 1.35 },
+			{s = "weapons/tempustorrent/boltfwd.wav" , t = 1.75 },
+           },
+    },
+    ["reload"] = {
+       Source = "reload_v2",
+       TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2, -- third person animation to play when this animation is played
+       LHIK = true, -- basically disable foregrips on this anim
+       LHIKIn = 0.15, -- In/Out controls how long it takes to switch to regular animation.
+       LHIKOut = 0.15, -- (not actually inverse kinematics)
+       LHIKEaseOut = 0.1, -- how long LHIK eases in.
+       LHIKEaseIn = 0.1, -- how long LHIK eases in.
+       SoundTable = {	
+        {s = "weapons/tempustorrent/magout.wav" , t = 0.45},
+		{s = "weapons/tempustorrent/maghit.wav" , t = 0.9},
+		{s = "weapons/tempustorrent/magin.wav" , t = 1},
+       },
+   }--]]
    }
 
 

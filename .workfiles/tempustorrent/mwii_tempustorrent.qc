@@ -168,6 +168,21 @@ $sequence "reload_empty" {
 	fps 30
 }
 
+$sequence "reload_v2" {
+	"anims\reload_v2.dmx"
+	activity "ACT_VM_RELOAD" 1
+	snap
+	fps 30
+}
+
+
+$sequence "reload_empty_v2" {
+	"anims\reload_empty_v2.dmx"
+	activity "ACT_VM_RELOAD" 1
+	snap
+	fps 30
+}
+
 
 $sequence "draw" {
 	"anims\draw.dmx"
